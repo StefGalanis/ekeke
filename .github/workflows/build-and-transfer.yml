@@ -21,13 +21,10 @@ jobs:
         
     - name: where am i 2?
       run: cd ..
-
-    - name: where am i?
-      run: ls
       
     - name: Compile Java
-      run: javac ekeke/HelloWorld.java  # Replace with your Java file name
+      run: javac HelloWorld.java  # Replace with your Java file name
 
     - name: Run Java
-      run: java -cp ekeke HelloWorld  # Replace with your Java class name
+      run: java HelloWorld  # Replace with your Java class name
 
