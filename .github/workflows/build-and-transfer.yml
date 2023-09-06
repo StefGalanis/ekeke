@@ -18,7 +18,10 @@ jobs:
       with:
         java-version: '11'  # You can specify the Java version you want
         distribution: 'adopt'
-
+        
+    - name: where am i?
+      run: pwd
+      
     - name: Compile Java
       run: javac ekeke/HelloWorld.java  # Replace with your Java file name
 
