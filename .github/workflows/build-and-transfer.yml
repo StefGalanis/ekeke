@@ -17,6 +17,7 @@ jobs:
       uses: actions/setup-java@v2  # This step sets up the Java environment
       with:
         java-version: '11'  # You can specify the Java version you want
+        distribution: 'adopt'
 
     - name: Compile Java
       run: javac HelloWorld.java  # Replace with your Java file name
