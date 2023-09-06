@@ -20,8 +20,8 @@ jobs:
         distribution: 'adopt'
 
     - name: Compile Java
-      run: javac ../../HelloWorld.java  # Replace with your Java file name
+      run: javac ekeke/HelloWorld.java  # Replace with your Java file name
 
     - name: Run Java
-      run: java ../../HelloWorld  # Replace with your Java class name
+      run: java -cp ekeke HelloWorld  # Replace with your Java class name
 
